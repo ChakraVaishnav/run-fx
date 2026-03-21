@@ -1,0 +1,53 @@
+{
+  "name": "runfx",
+  "displayName": "runfx",
+  "description": "Play sound effects when running code in terminal",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.110.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished",
+    "onCommand:runfx.runCommand"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "runfx.runCommand",
+        "title": "RunFX: Run Command with Sound"
+      },
+      {
+        "command": "runfx.setSound",
+        "title": "RunFX: Set Custom Sound"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "runfx.runCommand",
+        "key": "ctrl+alt+r",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "@types/vscode": "^1.110.0",
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2",
+    "eslint": "^9.39.3"
+  },
+  "dependencies": {
+    "play-sound": "^1.1.6",
+    "sound-play": "^1.1.0"
+  }
+}
