@@ -1,6 +1,6 @@
 # RunFX
 
-![RunFX Icon](images/runfx-icon.png)
+![RunFX Icon](images/runfx_icon.png)
 
 RunFX is a VS Code extension that plays a sound effect every time you run code from anywhere in your workspace. Supercharge your workflow with instant audio feedback and a beautiful, customizable experience!
 
@@ -19,13 +19,11 @@ RunFX is a VS Code extension that plays a sound effect every time you run code f
 
 ## 🖼️ Screenshots
 
-> **Note:** If images are not visible, ensure you have an `images/` folder in your extension root with the correct filenames (e.g., `images/runfx-icon.png`, `images/set-custom-sound.png`).
-
 ### Status Bar Button
-![RunFX Status Bar](images/runfx-icon.png)
+![RunFX Status Bar](images/runfx_icon.png)
 
 ### Setting a Custom Sound
-![Set Custom Sound](images/set-custom-sound.png)
+![Set Custom Sound](images/set_custom_sound.png)
 
 ---
 
