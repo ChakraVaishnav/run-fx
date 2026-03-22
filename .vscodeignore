@@ -8,3 +8,15 @@ vsc-extension-quickstart.md
 **/*.map
 **/eslint.config.mjs
 **/.vscode-test.*
+**/test/**
+**/node_modules/**
+**/dist/**
+**/out/**
+**/coverage/**
+**/docs/**
+**/examples/**
+**/samples/**
+**/scripts/**
+**/webpack.config.js
+**/rollup.config.js
+.history/**
