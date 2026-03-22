@@ -2,7 +2,7 @@
     "name": "runfx",
     "displayName": "RunFX",
     "description": "Play sound effects when running commands in VS Code terminal",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "ChakraVaishnavReddy",
     "icon": "images/icon.png",
     "license": "MIT",
