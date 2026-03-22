@@ -9,7 +9,7 @@ vsc-extension-quickstart.md
 **/eslint.config.mjs
 **/.vscode-test.*
 **/test/**
-**/node_modules/**
+## node_modules is included for local/private .vsix installs to avoid missing dependencies
 **/dist/**
 **/out/**
 **/coverage/**
