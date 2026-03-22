@@ -1,1 +1,69 @@
-{"name":"runfx","displayName":"RunFX","description":"Play sound effects when running commands in VS Code terminal","version":"0.0.2","publisher":"ChakraVaishnavReddy","icon":"images/icon.png","license":"MIT","engines":{"vscode":"^1.110.0"},"categories":["Other"],"keywords":["sound","terminal","command","productivity","fun"],"repository":{"type":"git","url":"https://github.com/ChakraVaishnav/run-fx"},"homepage":"https://github.com/ChakraVaishnav/run-fx","bugs":{"url":"https://github.com/ChakraVaishnav/run-fx/issues"},"activationEvents":["onStartupFinished","onCommand:runfx.runCommand","onCommand:runfx.setSound"],"main":"./extension.js","contributes":{"commands":[{"command":"runfx.runCommand","title":"RunFX: Run Command with Sound"},{"command":"runfx.setSound","title":"RunFX: Set Custom Sound"}],"keybindings":[{"command":"runfx.runCommand","key":"ctrl+alt+r","when":"editorTextFocus"}]},"scripts":{"lint":"eslint .","test":"vscode-test"},"devDependencies":{"@types/mocha":"^10.0.10","@types/node":"22.x","@types/vscode":"^1.110.0","@vscode/test-cli":"^0.0.12","@vscode/test-electron":"^2.5.2","eslint":"^9.39.4"},"dependencies":{"play-sound":"^1.1.6","sound-play":"^1.1.0"}}
+{
+    "name": "runfx",
+    "displayName": "RunFX",
+    "description": "Play sound effects when running commands in VS Code terminal",
+    "version": "0.0.3",
+    "publisher": "ChakraVaishnavReddy",
+    "icon": "images/icon.png",
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.110.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "keywords": [
+        "sound",
+        "terminal",
+        "command",
+        "productivity",
+        "fun"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ChakraVaishnav/run-fx"
+    },
+    "homepage": "https://github.com/ChakraVaishnav/run-fx",
+    "bugs": {
+        "url": "https://github.com/ChakraVaishnav/run-fx/issues"
+    },
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "runfx.runCommand",
+                "title": "RunFX: Run Command with Sound"
+            },
+            {
+                "command": "runfx.setSound",
+                "title": "RunFX: Set Custom Sound"
+            }
+        ],
+        "keybindings": [
+            {
+                "command": "runfx.runCommand",
+                "key": "ctrl+alt+r",
+                "when": "editorTextFocus"
+            }
+        ]
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "test": "vscode-test"
+    },
+    "devDependencies": {
+        "@types/mocha": "^10.0.10",
+        "@types/node": "22.x",
+        "@types/vscode": "^1.110.0",
+        "@vscode/test-cli": "^0.0.12",
+        "@vscode/test-electron": "^2.5.2",
+        "eslint": "^9.39.4"
+    },
+    "dependencies": {
+        "play-sound": "^1.1.6",
+        "sound-play": "^1.1.0"
+    }
+}
