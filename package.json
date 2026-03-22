@@ -2,13 +2,13 @@
 "name": "runfx",
 "displayName": "RunFX",
 "description": "Play sound effects when running commands in VS Code terminal",
-"version": "0.0.4",
+"version": "0.0.6",
 "publisher": "ChakraVaishnavReddy",
 "icon": "images/icon.png",
 "license": "MIT",
 
 "engines": {
-    "vscode": "^1.110.0"
+    "vscode": "^1.70.0"
 },
 
 "categories": [
@@ -60,10 +60,12 @@
     ]
 },
 
+
 "scripts": {
     "lint": "eslint .",
     "test": "vscode-test"
 },
+
 
 "devDependencies": {
     "@types/mocha": "^10.0.10",
@@ -74,8 +76,8 @@
     "eslint": "^9.39.4"
 },
 
+
 "dependencies": {
     "play-sound": "^1.1.6",
     "sound-play": "^1.1.0"
-}
-}
+}}
